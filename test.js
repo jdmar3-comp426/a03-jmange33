@@ -35,7 +35,7 @@ import { getSum } from "./src/medium/medium_1.js";
 console.log(getSum([2, 4, 3, 5, 9]));
 
 import { getMedian } from "./src/medium/medium_1.js";
-console.log(getMedian([4,5,7,1,33]));
+console.log(getMedian([4,5,7,34,44,50]));
 
 import { getStatistics } from "./src/medium/medium_1.js";
 console.log(getStatistics([2,3,5,5,5,7,7,7,8,9,14,47]));
