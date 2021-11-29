@@ -99,8 +99,9 @@ export function removeKeyNonDestructive(object, key) {
  * @return {*} The object with its keys removed.
  */
 export function removeKeys(object, keyList) {
+   const clone = Object.assign({}, object);
    keyList.forEach(item => {
-      removeKey(object, item);
+      removeKey(clone, item);
    })
-   return object;
+   return clone;
 }
