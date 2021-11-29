@@ -38,4 +38,4 @@ import { getMedian } from "./src/medium/medium_1.js";
 console.log(getMedian([4,5,7,1,33]));
 
 import { getStatistics } from "./src/medium/medium_1.js";
-console.log(getStatistics([3,2,4,5,5,5,2,6,7]));
+console.log(getStatistics([2,3,5,5,5,7,7,7,8,9,14,47]));
