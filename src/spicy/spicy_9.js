@@ -93,7 +93,7 @@ export const everyEven = (arr, test) => {
     let array = [];
         for (let i = 0; i < arr.length; i++) {
             if (i % 2 == 0) {
-                array.push(test(i))
+                array.push(test(arr[i]));
             }
         }
         for (let i = 0; i < array.length; i++) {
