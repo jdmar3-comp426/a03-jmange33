@@ -15,7 +15,10 @@
  *                from calling the function
  */
 export const repeat = (fn, n, ...params) => {
-
+    let arr = [];
+    for (let i = 0; i < n; i++) {
+        arr.push(fn(...params));
+    }
 };
 
 
